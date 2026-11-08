@@ -1,0 +1,309 @@
+
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    height:60px;
+    background-color: #0f1111;
+    color:antiquewhite;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo
+{
+    height:50px;
+    width:100px;
+}
+
+.logo
+{
+    height:40px;
+    background-image: url("1.webp");
+    background-size:cover;
+    width:100%;
+}
+
+.border
+{
+    border:2px solid transparent;
+}
+
+.border:hover
+{
+    border:2px solid rgb(230, 49, 49);
+}
+
+.nav-icon
+{
+    color:antiquewhite;
+}
+
+.add-icon
+{
+    display:flex;
+    align-items:center;
+}
+
+#p1
+{
+    margin-left:15px;
+}
+
+.navsearch
+{
+    display:flex;
+    background-color: #f3f3f3;
+    width:620px;
+    height:40px;
+    border-radius:4px;
+    justify-content: space-around;
+    margin-top:6px;
+}
+
+.search1
+{
+    background-color: #f3f3f3;
+    text-align:center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width:65px;
+}
+
+.input1
+{
+    background-color: #f3f3f3;
+    width:525px;
+}
+
+#i1
+{
+    display:inline-block;
+    width:50px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius: 3px;
+    background-color: darkorange;
+    color:#0f1111;
+    text-align:center;
+    padding-top:6px;
+}
+
+#i1:hover
+{
+    opacity:0.5;
+}
+
+.nav-signin
+{
+    margin-top:6px;
+}
+
+.nav-cart
+{
+    margin-top:6px;
+}
+
+.nav-carticon
+{
+    margin-top:6px;
+    color:antiquewhite;
+    background-color:#0f1111;
+    display:flex;
+    width:100px;
+    align-items:center;
+}
+
+#i3
+{
+    display:inline-block;
+    font-size:40px;
+    color:white;
+}
+
+/* PANEL SECTION */
+
+.panel
+{
+    background-color:rgb(34, 30, 30);
+    height:35px;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:0px 15px;
+}
+
+.menu
+{
+    width:1000px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.menu p
+{
+    display:inline;
+    margin-left:6px;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.paneldeals
+{
+    font-weight:bold;
+    font-size:14px;
+    white-space:nowrap;
+}
+
+/* HERO SECTION */
+
+.herosection
+{
+    background-image: url("heropic.jpg");
+    background-size: cover;
+    height:500px;
+    padding-top: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.herodetail
+{
+    width:100%;
+    height:40px;
+    color:black;
+    background-color: white;
+    text-align:center;
+    padding-top:9px;
+}
+
+/* SHOP SECTION */
+
+.shop-section
+{
+    width:100%;
+    height:1500px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(130, 189, 130);
+    flex-wrap:wrap;
+}
+
+.boxes
+{
+    width:23%;
+    height:400px;
+    background-color:white;
+    padding:20px 10px 15px 10px;
+}
+
+.box-img
+{
+    height:290px;
+    background-size:cover;
+}
+
+.boxes p
+{
+    color:blue;
+}
+
+/* FOOTER SECTION */
+
+.footer1
+{
+    text-align:center;
+    width:100%;
+    height:50px;
+    background-color:#37475a;
+    padding:15px 0px;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+}
+
+.mainpanel1
+{
+    background-color:#232f3e;
+    display:flex;
+    color:white;
+    justify-content:space-evenly;
+    padding:45px 20px 50px;
+}
+
+.lowerpanel
+{
+    width:180px;
+    height:auto;
+    background-color:transparent;
+}
+
+.lowerpanel h3
+{
+    font-size:16px;
+    margin-bottom:15px;
+}
+
+.a1
+{
+    text-decoration:none;
+    color:#dddddd;
+    display:inline-block;
+    font-size:14px;
+}
+
+.a1:hover
+{
+    text-decoration:underline;
+}
+
+.u1
+{
+    list-style:none;
+    text-align:start;
+    padding:0;
+}
+
+.u1 li
+{
+    margin-bottom:10px;
+}
+
+.footpanel3
+{
+    background-color:#232f3e;
+    color:white;
+    border-top:1px solid #3a4553;
+    width:100%;
+    height:110px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    background-image:none;
+}
+
+.footpanel3 button
+{
+    background-color:transparent;
+    color:white;
+    border:1px solid #848e9b;
+    border-radius:3px;
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+#f1
+{
+    background-color:#131a22;
+    color:white;
+    width:100%;
+    padding:20px;
+    text-align:center;
+    font-size:13px;
+}
